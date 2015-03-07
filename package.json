@@ -1,0 +1,16 @@
+{
+  "name": "my-nodemodule",
+  "version": "1.0.0",
+  "description": "test for a git prepush hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepush": "./node_modules/.bin/eslint ."
+  },
+  "author": "Timothy Sullivan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^0.15.1",
+    "husky": "^0.7.0"
+  }
+}
